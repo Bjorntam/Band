@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+*{
+   box-sizing: border-box; 
+   font-family: Playfair Display;
+   color: #777;
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .20);
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(214, 214, 214, .70);
+}
+.main-nav li{
+    padding: 0 20px;
+}
+
+
+html, body{
+    margin: 0;
+    border: 0;
+}
+.main-header{
+    background-color: rgba(0, 0, 0, .20);
+    background-image: url("images/wallpaper2.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.band-name{
+    
+    text-align: center;
+    margin: 0;
+    font-family: Old Standard TT;
+    color: white;
+    font-weight: normal;
+}
+.band-name-footer{
+    
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    font-family: Old Standard TT;
+    color: white;
+    font-weight: normal;
+}
+
+.band-name-large{
+    font-size: 4em;
+}
+.content-section{
+    margin: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.2em;
+}
+.section-header{
+    font-family: Old Standard TT;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-band-image{
+    margin: 15px;
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+}
+.main-footer{
+    background-color: rgb(92, 55, 0);
+    padding: 1.25em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
