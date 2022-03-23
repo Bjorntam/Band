@@ -37,11 +37,12 @@ html, body{
     border: 0;
 }
 .main-header{
+    background-position: center;
     background-color: rgba(0, 0, 0, .20);
     background-image: url("images/wallpaper2.jpg");
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 .band-name{
     
@@ -50,6 +51,7 @@ html, body{
     font-family: Old Standard TT;
     color: white;
     font-weight: normal;
+    padding-top: 1em;
 }
 .band-name-footer{
     
@@ -95,4 +97,189 @@ html, body{
 .main-footer-container ul{
     flex-grow: 1;
     text-align: end;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: aliceblue;
+    border: 2px solid rgb(255, 211, 91);
+    background-color:  rgba(255, 255, 255, .1);
+    border-radius: 0%;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.btn-header:hover{
+    background-color:rgb(255, 211, 91,.2);
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: rgb(255, 211, 91);
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    
+}
+.tour-row{
+border-bottom: 1px solid black;
+padding-bottom: 1em;
+margin-bottom: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-arena{
+    width: 30%;
+}
+.tour-btn{
+    max-width: 20%;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background-color:rgb(255, 211, 91);
+    border: 0;
+    border-radius: .30em;
+    font-weight: bold;
+    
+}
+.btn-primary:hover{
+    background-color: rgb(207, 102, 70);
+    color: rgb(0, 0, 0);
+}
+.shop-item{
+    margin: 30px;
+}
+.shop-item-title{
+    display: block;
+    width:  100%;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.shop-item-image{
+    height: 250px;
+    width: 250px;
+}
+.shop-item-detail{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: #333;
+    padding-right: 6em;
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+ width: 45%;
+}
+.cart-price{
+ width: 20%;
+ font-size: 1.2em;
+ color: #333;
+}
+.cart-quantity{
+width: 35%;
+}
+.cart-item-title{
+    color: #333;
+    margin: .5em;
+    font-size: 1.2em;
+}
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10%;
+}
+.btn-danger{
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 51, 51);
+    border: none;
+    border-radius: .5em;
+}
+.btn-danger:hover{
+    background-color: rgb(156, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.cart-quantity-input{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 211, 91);
+    background-color: rgb(248, 248, 248);
+    padding: 0;
+    margin-right: 25px;
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column{
+    border: none;
+}
+.cart-total{
+    text-align: end;
+margin-top: 10px;
+margin-right: 10px;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+.cart-total-price{
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-purchase{
+    display: block;
+    margin: 30px auto 80px auto;
+    font-size: 1.75em;
 }
